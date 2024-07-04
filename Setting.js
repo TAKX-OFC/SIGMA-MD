@@ -58,7 +58,7 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '263785192259' ;  // ADD YOUR NUMBER WITHOUT +
 global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
@@ -75,7 +75,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6
 module.exports = {
 
   //==============================[COMPULSORY]=====================================
-  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
+  sessionName: process.env.SESSION_ID || '05_07_2024_SIGMA_MD_EiBsy3tr_MAHER_ZUBAIR',              // PUT YOUR SESSION ID
   botname: process.env.BOT_NAME       || '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲',         // ADD YOUR BOT NAME
   ownername:  process.env.OWNER_NAME  || `𝚃𝙰𝙺𝚇-𝙾𝙵𝙲`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
@@ -87,8 +87,8 @@ module.exports = {
   author:  process.env.PACK_AUTHER  || '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲',      // ADD YOUR STICKER AUTHOR NAME
   status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
   status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
-  packname:  process.env.PACK_NAME  || "sɪɢᴍᴀ-ᴍᴅ" ,          // ADD YOUR STICKER PACKNAME
-  autoreaction: process.env.AUTO_REACTION || 'false',    // IF TRUE IT WILL REACT TO YOUR MESSAGES
+  packname:  process.env.PACK_NAME  || "𝚃𝙰𝙺𝚇-𝙾𝙵𝙲" ,          // ADD YOUR STICKER PACKNAME
+  autoreaction: process.env.AUTO_REACTION || 'true',    // IF TRUE IT WILL REACT TO YOUR MESSAGES
   readmessage: process.env.READ_MESSAGE   || 'false',      // IF TRUE IT WILL SEEN ALL YOUR MESSAGES
   disablepm: process.env.DISABLE_PM || "false",        // IF TRUE IT WILL DISABLE THE BOT IN YOUR PM
   //=================================================================================
@@ -100,8 +100,8 @@ module.exports = {
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS    || 'false',   // IF TRUE IT WILL SHOW YOUR PM MESSAGES IN LOGS
   antifake :   process.env.FAKE_COUNTRY_CODE || '212',     // ANTIFAKE NUMBER CAN'T JOIN GROUPS
   levelupmessage: process.env.LEVEL_UP_MESSAGE ||'true', // SENDS A LEVEL UP MESSAGE WHEN SOMEONE'S RANK INCREASE
-  antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com,youtube.com,instagram.com,tiktok.com,vt.tiktok.com,wa.me,facebook.com', // ANTILINKS VALUES, IT WILL TAKE ACTION WHO SEND THESE LINKS
-  promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'false' ,     // IF TRUE IT WILL SEND AN ALERT MESSAGE WHEN SOMEONE PROMOTED/DEMOTED IN GROUPS
+  antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com', // ANTILINKS VALUES, IT WILL TAKE ACTION WHO SEND THESE LINKS
+  promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,     // IF TRUE IT WILL SEND AN ALERT MESSAGE WHEN SOMEONE PROMOTED/DEMOTED IN GROUPS
   antibadwords_values: process.env.ANTI_BAD_WORDS || 'Fuck,porn,sex,xxx,fucker,asshole,fuck you,fuck off',   // IT WILL TAKES ACTIONS WHO SENDS THESE BAD WORDS
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,    // ADD YOUR OPEN AI KEY IF YOU HAVE
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY   || "1YueQDSbfnexBFK9ai86T1JX",    // ADD YOUR REMOVE BG KEY IF YOU HAVE
