@@ -76,15 +76,15 @@ module.exports = {
 
   //==============================[COMPULSORY]=====================================
   sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
-  ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
+  botname: process.env.BOT_NAME       || '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || `𝚃𝙰𝙺𝚇-𝙾𝙵𝙲`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
   //==============================[WHAT'SAPP FEATURES]==============================
-  author:  process.env.PACK_AUTHER  || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ',      // ADD YOUR STICKER AUTHOR NAME
+  author:  process.env.PACK_AUTHER  || '𝚃𝙰𝙺𝚇-𝙾𝙵𝙲',      // ADD YOUR STICKER AUTHOR NAME
   status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
   status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
   packname:  process.env.PACK_NAME  || "sɪɢᴍᴀ-ᴍᴅ" ,          // ADD YOUR STICKER PACKNAME
